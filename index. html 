@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>QBH Media | YouTube Channel Management &amp; Digital Media Services</title>
+  <meta name="description" content="QBH Media provides professional YouTube channel management services including upload scheduling, YouTube SEO, thumbnail management, Shorts management and channel branding for creators and organizations." />
+  <meta name="keywords" content="QBH Media, YouTube channel management, YouTube management services, YouTube SEO services, YouTube channel manager, YouTube account management, YouTube creator management, YouTube digital media services" />
+  <link rel="canonical" href="https://www.qbhmedia.com/" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="QBH Media" />
+  <meta property="og:title" content="QBH Media | YouTube Channel Management & Digital Media Services" />
+  <meta property="og:description" content="Professional YouTube channel management — upload scheduling, SEO, metadata, thumbnails, Shorts and channel branding. Built for creators and organizations." />
+  <meta property="og:url" content="https://www.qbhmedia.com/" />
+  <meta property="og:image" content="og-image.png" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="QBH Media | YouTube Channel Management & Digital Media Services" />
+  <meta name="twitter:description" content="Professional YouTube channel management for creators and organizations. Upload scheduling, SEO, metadata, thumbnails and more." />
+
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2222%22 fill=%22%23090a0f%22/><text x=%2250%22 y=%2266%22 font-size=%2252%22 font-family=%22Arial%22 font-weight=%22800%22 fill=%22%234f7dff%22 text-anchor=%22middle%22>Q</text></svg>" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ============ NAVBAR ============ -->
+  <header class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="#home" class="nav__logo" aria-label="QBH Media home">
+        <span class="nav__mark" aria-hidden="true">Q</span>
+        <span class="nav__logotype">QBH<span class="nav__logotype-media">Media</span></span>
+      </a>
+
+      <nav class="nav__links" id="nav-links" aria-label="Primary">
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="#how-it-works">How It Works</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="nav__actions">
+        <a href="#contact" class="btn btn--primary btn--sm">Get Started</a>
+        <button class="nav__toggle" id="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+
+    <div class="mobile-menu" id="mobile-menu" data-open="false">
+      <a href="#home">Home</a>
+      <a href="#services">Services</a>
+      <a href="#about">About</a>
+      <a href="#how-it-works">How It Works</a>
+      <a href="#contact">Contact</a>
+      <a href="#contact" class="btn btn--primary btn--block">Get Started</a>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="home">
+      <div class="hero__glow" aria-hidden="true"></div>
+      <div class="hero__inner">
+        <div class="hero__copy">
+          <p class="eyebrow"><span class="eyebrow__dot" aria-hidden="true"></span>YouTube Channel Management</p>
+          <h1 class="hero__headline">
+            Your YouTube Channel.<br />
+            <span class="text-accent">Our Management.</span>
+          </h1>
+          <p class="hero__sub">
+            QBH Media helps creators and organizations manage their YouTube presence with professional channel management, SEO, publishing and digital media support.
+          </p>
+          <div class="hero__actions">
+            <a href="#contact" class="btn btn--primary">Get Started</a>
+            <a href="#services" class="btn btn--ghost">View Services</a>
+          </div>
+        </div>
+
+        <div class="hero__visual" aria-hidden="true">
+          <div class="panel panel--main glass">
+            <div class="panel__row">
+              <span class="panel__label">CHANNEL STATUS</span>
+              <span class="panel__pill">Live</span>
+            </div>
+            <div class="panel__bars">
+              <span style="--h:38%"></span>
+              <span style="--h:62%"></span>
+              <span style="--h:45%"></span>
+              <span style="--h:80%"></span>
+              <span style="--h:55%"></span>
+              <span style="--h:70%"></span>
+              <span style="--h:48%"></span>
+            </div>
+            <div class="panel__meta">
+              <div>
+                <span class="panel__meta-label">Upload Queue</span>
+                <span class="panel__meta-value">3 scheduled</span>
+              </div>
+              <div>
+                <span class="panel__meta-label">SEO Score</span>
+                <span class="panel__meta-value">Optimized</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="panel panel--float panel--thumb glass">
+            <div class="thumb-grid">
+              <span></span><span></span><span></span><span></span>
+            </div>
+            <span class="panel__caption">Thumbnail Set</span>
+          </div>
+
+          <div class="panel panel--float panel--tag glass">
+            <span class="tag-dot" aria-hidden="true"></span>
+            Metadata Synced
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ TRUST / INTRO ============ -->
+    <section class="intro">
+      <div class="section__inner">
+        <div class="intro__head">
+          <p class="eyebrow"><span class="eyebrow__dot" aria-hidden="true"></span>Why Creators Work With Us</p>
+          <h2>Focused on Your Channel</h2>
+          <p class="intro__text">
+            You focus on creating content. QBH Media helps handle the management behind your channel so you can stay focused on what matters most.
+          </p>
+        </div>
+
+        <div class="feature-grid">
+          <div class="feature-card glass">
+            <div class="feature-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none"><path d="M4 12h16M4 6h10M4 18h7" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+            </div>
+            <h3>Simple</h3>
+            <p>Easy and organized channel management.</p>
+          </div>
+          <div class="feature-card glass">
+            <div class="feature-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none"><path d="M12 3l2.6 5.6L21 9.5l-4.5 4.2L17.7 21 12 17.8 6.3 21l1.2-7.3L3 9.5l6.4-.9L12 3z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>
+            </div>
+            <h3>Professional</h3>
+            <p>Consistent and structured digital presence.</p>
+          </div>
+          <div class="feature-card glass">
+            <div class="feature-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none"><path d="M4 17l5-5 4 4 7-7M20 9V5h-4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+            <h3>Flexible</h3>
+            <p>Services that can grow with your channel.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SERVICES ============ -->
+    <section class="services" id="services">
+      <div class="section__inner">
+        <p class="eyebrow"><span class="eyebrow__dot" aria-hidden="true"></span>What We Offer</p>
+        <h2>What We Manage</h2>
+        <p class="section__sub">A complete set of channel management services, handled with an organized and consistent workflow.</p>
+
+        <div class="services-grid">
+
+          <article class="service-card glass">
+            <div class="service-card__icon"><svg viewBox="0 0 24 24" fill="none"><rect x="3" y="5" width="18" height="14" rx="3" stroke="currentColor" stroke-width="1.6"/><path d="M10 9.5l5 2.5-5 2.5v-5z" fill="currentColor"/></svg></div>
+            <h3>YouTube Channel Management</h3>
+            <p>Day-to-day oversight of your channel so everything stays organized and on schedule.</p>
+          </article>
+
+          <article class="service-card glass">
+            <div class="service-card__icon"><svg viewBox="0 0 24 24" fill="none"><path d="M12 3v12m0 0l-4-4m4 4l4-4M5 21h14" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+            <h3>Video Upload &amp; Scheduling</h3>
+            <p>Reliable uploads and publishing timed around your content calendar.</p>
+          </article>
+
+          <article class="service-card glass">
+            <div class="service-card__icon"><svg viewBox="0 0 24 24" fill="none"><circle cx="11" cy="11" r="6.5" stroke="currentColor" stroke-width="1.6"/><path d="M20 20l-4-4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></div>
+            <h3>YouTube SEO</h3>
+            <p>Search-focused optimization to help the right viewers find your videos.</p>
+          </article>
+
+          <article class="service-card glass">
+            <div class="service-card__icon"><svg viewBox="0 0 24 24" fill="none"><path d="M4 6h16M4 12h10M4 18h13" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></div>
+            <h3>Titles &amp; Descriptions</h3>
+            <p>Clear, structured titles and descriptions written for viewers and search alike.</p>
+          </article>
+
+          <article class="service-card glass">
+            <div class="service-card__icon"><svg viewBox="0 0 24 24" fill="none"><path d="M5 8h14M5 12h14M5 16h9" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><circle cx="18" cy="16" r="1.4" fill="currentColor"/></svg></div>
+            <h3>Keywords &amp; Metadata</h3>
+            <p>Research-backed keywords and metadata tagging applied consistently across uploads.</p>
+          </article>
+
+          <article class="service-card glass">
+            <div class="service-card__icon"><svg viewBox="0 0 24 24" fill="none"><rect x="3" y="5" width="18" height="14" rx="2.5" stroke="currentColor" stroke-width="1.6"/><path d="M3 15l5-4 4 3 5-5 4 3" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg></div>
+            <h3>Thumbnail Management</h3>
+            <p>Organized thumbnail sets and file handling for a consistent channel look.</p>
+          </article>
+
+          <article class="service-card glass">
+            <div class="service-card__icon"><svg viewBox="0 0 24 24" fill="none"><rect x="7" y="3" width="10" height="18" rx="2.5" stroke="currentColor" stroke-width="1.6"/><path d="M11 18h2" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></div>
+            <h3>YouTube Shorts</h3>
+            <p>Scheduling and management support for your Shorts alongside long-form content.</p>
+          </article>
+
+          <article class="service-card glass">
+            <div class="service-card__icon"><svg viewBox="0 0 24 24" fill="none"><path d="M4 19V6a2 2 0 012-2h8l6 6v9a2 2 0 01-2 2H6a2 2 0 01-2-2z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M14 4v6h6" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg></div>
+            <h3>Channel Branding</h3>
+            <p>Consistent visual identity across your banner, icon and channel layout.</p>
+          </article>
+
+          <article class="service-card glass">
+            <div class="service-card__icon"><svg viewBox="0 0 24 24" fill="none"><path d="M4 20V10M11 20V4M18 20v-7" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></div>
+            <h3>Analytics &amp; Reports</h3>
+            <p>Straightforward performance reports so you always know where your channel stands.</p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ HOW IT WORKS ============ -->
+    <section class="process" id="how-it-works">
+      <div class="section__inner">
+        <p class="eyebrow"><span class="eyebrow__dot" aria-hidden="true"></span>Our Process</p>
+        <h2>How It Works</h2>
+        <p class="section__sub">A straight, four-step path from first contact to ongoing management.</p>
+
+        <div class="process-grid">
+          <div class="process-card">
+            <span class="process-card__num">01</span>
+            <h3>Contact Us</h3>
+            <p>Tell us about your channel and what you need.</p>
+          </div>
+          <div class="process-card">
+            <span class="process-card__num">02</span>
+            <h3>Channel Review</h3>
+            <p>We understand your current channel and requirements.</p>
+          </div>
+          <div class="process-card">
+            <span class="process-card__num">03</span>
+            <h3>Management</h3>
+            <p>We handle the agreed channel management tasks.</p>
+          </div>
+          <div class="process-card">
+            <span class="process-card__num">04</span>
+            <h3>Report &amp; Improve</h3>
+            <p>We monitor performance and provide useful updates.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="about" id="about">
+      <div class="section__inner section__inner--split">
+        <div class="about__copy">
+          <p class="eyebrow"><span class="eyebrow__dot" aria-hidden="true"></span>About QBH Media</p>
+          <h2>Built to Make YouTube Management Easier</h2>
+          <p>
+            QBH Media is a growing digital media service built around one focus: managing YouTube channels properly. We work with creators, organizations and businesses who want their channel handled in an organized, professional way, without having to manage every upload, title and metadata field themselves.
+          </p>
+          <p>
+            As a company still in its early stages, we keep our process direct and our communication clear. We take on channel management with the same care we would apply to our own — structured, consistent and easy to follow.
+          </p>
+        </div>
+
+        <div class="about__panel glass">
+          <h3>Why QBH Media?</h3>
+          <ul class="why-list">
+            <li>
+              <span class="why-list__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none"><path d="M4 12h16M4 6h10M4 18h7" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+              </span>
+              <div>
+                <h4>Organized Workflow</h4>
+                <p>A clear, repeatable process for every channel we manage.</p>
+              </div>
+            </li>
+            <li>
+              <span class="why-list__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none"><path d="M4 6h16M4 12h16M4 18h16" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+              </span>
+              <div>
+                <h4>Professional Communication</h4>
+                <p>Straightforward updates, without unnecessary back and forth.</p>
+              </div>
+            </li>
+            <li>
+              <span class="why-list__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="8" r="3.2" stroke="currentColor" stroke-width="1.8"/><path d="M5 20c1.2-3.5 4-5 7-5s5.8 1.5 7 5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+              </span>
+              <div>
+                <h4>Creator-Focused Service</h4>
+                <p>Built around what individual creators and channels actually need.</p>
+              </div>
+            </li>
+            <li>
+              <span class="why-list__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none"><path d="M4 17l5-5 4 4 7-7M20 9V5h-4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </span>
+              <div>
+                <h4>Flexible Management</h4>
+                <p>Services shaped around the size and pace of your channel.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CTA ============ -->
+    <section class="cta">
+      <div class="section__inner cta__inner glass">
+        <h2>Ready to Take Your Channel Seriously?</h2>
+        <p>Let's discuss your channel and find the right management solution for you.</p>
+        <a href="#contact" class="btn btn--primary btn--lg">Contact QBH Media</a>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="contact" id="contact">
+      <div class="section__inner section__inner--split">
+        <div class="contact__info">
+          <p class="eyebrow"><span class="eyebrow__dot" aria-hidden="true"></span>Get In Touch</p>
+          <h2>QBH Media</h2>
+          <p class="contact__lede">Tell us about your channel and what kind of management support you're looking for.</p>
+          <a class="contact__email" href="mailto:qbh313official@gmail.com">qbh313official@gmail.com</a>
+
+          <div class="contact__note glass">
+            <strong>Note:</strong> This form is front-end ready. It currently validates your input but does not send emails yet — an email service or backend needs to be connected before it can deliver messages. Until then, please email us directly at the address above.
+          </div>
+        </div>
+
+        <form class="contact-form glass" id="contact-form" novalidate>
+          <div class="form-row">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" autocomplete="name" required />
+            <span class="form-error" id="err-name"></span>
+          </div>
+
+          <div class="form-row">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" autocomplete="email" required />
+            <span class="form-error" id="err-email"></span>
+          </div>
+
+          <div class="form-row">
+            <label for="channel">YouTube Channel URL</label>
+            <input type="url" id="channel" name="channel" placeholder="https://youtube.com/@yourchannel" required />
+            <span class="form-error" id="err-channel"></span>
+          </div>
+
+          <div class="form-row">
+            <label for="service">Service Required</label>
+            <select id="service" name="service" required>
+              <option value="" disabled selected>Select a service</option>
+              <option>YouTube Channel Management</option>
+              <option>Video Upload & Scheduling</option>
+              <option>YouTube SEO</option>
+              <option>Titles & Descriptions</option>
+              <option>Keywords & Metadata</option>
+              <option>Thumbnail Management</option>
+              <option>YouTube Shorts Management</option>
+              <option>Channel Branding</option>
+              <option>Analytics & Reports</option>
+              <option>Other</option>
+            </select>
+            <span class="form-error" id="err-service"></span>
+          </div>
+
+          <div class="form-row">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <span class="form-error" id="err-message"></span>
+          </div>
+
+          <button type="submit" class="btn btn--primary btn--block">Send Request</button>
+          <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="section__inner footer__inner">
+      <div class="footer__brand">
+        <a href="#home" class="nav__logo">
+          <span class="nav__mark" aria-hidden="true">Q</span>
+          <span class="nav__logotype">QBH<span class="nav__logotype-media">Media</span></span>
+        </a>
+        <p>YouTube Management. Simplified.</p>
+      </div>
+
+      <nav class="footer__links" aria-label="Footer">
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="footer__contact">
+        <a href="mailto:qbh313official@gmail.com">qbh313official@gmail.com</a>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>&copy; 2026 QBH Media. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
